@@ -76,7 +76,7 @@ exports.signup = async (req, res) => {
           message: err,
         });
       } else {
-        if (req.body.role !== "ajay@AJAY9587") {
+        if (req.body.role !== "tourforsoul") {
           return res.status(401).json({
             message: "Check Your Secure Key and Try Again",
           });
